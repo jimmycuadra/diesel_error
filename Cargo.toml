@@ -1,0 +1,13 @@
+[package]
+authors = ["Jimmy Cuadra <jimmy@jimmycuadra.com>"]
+name = "diesel_error"
+version = "0.1.0"
+
+[dependencies]
+diesel = "0.5.3"
+num = "0.1.31"
+
+[dependencies.diesel_codegen]
+default-features = false
+features = ["nightly"]
+version = "0.5.4"
